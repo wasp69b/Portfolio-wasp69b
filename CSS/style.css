@@ -5,7 +5,10 @@ body{
 h1{
     font-size: 50px;
 }
-.name-heightlight{
+section{
+    height: 600px;
+}
+.orange-heightlight{
     color: orange;
 }
 .half-width{
@@ -20,7 +23,7 @@ h1{
 }
 .top-banner{
     background-image: url(../IMAGES/top-banner.PNG);
-    height: 500px;
+    /* height: 500px; */
     background-repeat: no-repeat;
 }
 .link-btn{
@@ -35,7 +38,32 @@ a{
 }
 .dreem-banner{
     background-image: url(../IMAGES/dream-bg.PNG);
-    height: 500px;
+    /* height: 600px; */
     background-repeat: no-repeat;
     background-position: right;
+}
+.single-exp{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 8px;
+    height: 60%;
+    background-color: white;
+}
+.experence-area{
+    background-image: url(../IMAGES/exp-bg.PNG);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightSalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,cyan, Blue);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 10px;
 }
